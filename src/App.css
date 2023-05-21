@@ -1,0 +1,21 @@
+body {
+  background-image: url('fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedorPADRE{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorApp{
+  position: relative;
+  top: 120px;
+  padding: 30px;
+  background-color: rgba(77, 174, 174, 0.488);
+  border-radius: 25px;
+}
+
+
+
