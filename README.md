@@ -1,2 +1,1 @@
-#Google translate clone utilizando tecnologias: TypeScript, React y CHATGPT API
-
+#Übersetzer powerred by OpenAI ChatGPT3,5 Turbo
