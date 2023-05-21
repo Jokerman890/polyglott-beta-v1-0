@@ -41,15 +41,6 @@ function App () {
       });
   }, [debouncedText, fromLanguage, toLanguage]);
   
-  () => {
-    if (debouncedText === '') return
-    translate({ fromLanguage, toLanguage, text: debouncedText })
-      .then(result => {
-        if (result == null) return
-        setResult(result)
-      })
-      .catch(() => { setResult('error') })
-  }
   return (
     <Container className='contenedorPADRE' fluid>
       <div className='contenedorApp'>
